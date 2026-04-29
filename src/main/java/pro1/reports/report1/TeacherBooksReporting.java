@@ -12,7 +12,7 @@ import java.util.List;
 public class TeacherBooksReporting {
 
     public static List<CourseBook> GetReport(DataSource dataSource, String rok, int ucitIdno, String katedra){
-        var coursesJson = dataSource.getPredmetyByUcitel(rok, ucitIdno, katedra  );
+        var coursesJson = dataSource.getPredmetyByUcitel(rok, ucitIdno, katedra);
 
         // TODO 1.1: Převeď coursesJson na objekt typu apiDataModel.TeacherCoursesList.
 

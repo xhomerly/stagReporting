@@ -7,4 +7,10 @@ public class Action {
     public long studentsCount;
     @SerializedName("ucitIdno")
     public long teacherId;
+    @SerializedName("denZkr")
+    public String weekday;
+
+    public String getWeekday() {
+        return weekday;
+    }
 }
