@@ -16,7 +16,6 @@ public class DepartmentWeekdaysReporting {
     }
 
     private static DepartmentWeekdays[] WeekdaysActions(String[] weekdays, ActionsList actionsList) {
-
         return Arrays.stream(weekdays)
                 .map(day -> {
                     long count = actionsList.items.stream()
